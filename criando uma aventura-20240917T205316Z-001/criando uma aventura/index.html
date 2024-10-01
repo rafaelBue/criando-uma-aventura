@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saia da caverna!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            
+            <p>SAIA DA CAVERNA!!</p>
+            <button class="btn-proximo" data-proximo="1">ir mais fundo</button>
+            <button class="btn-proximo" data-proximo="2">ir para cima</button>
+        </div>
+         
+        <div class="passo" id="passo-2">
+            <p>VOCÊ ENCONTRA UM GRANDE URSO BLOQUEANDO A PASSAGEM</p>
+            <button class="btn-proximo" data-proximo="3">passar de fininho</button>
+            <button class="btn-proximo" data-proximo="4">gritar com o urso</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>VOCE ENCONTRA UMA GRANDE SALA, COM PRATELEIRAS COM VARIOS JARROS DE BARRO E VARIAS CAMAS. APARENTEMENTE UM 
+                COVLI DE GOBLINS
+            </p>
+            <button class="btn-proximo" data-proximo="5">examinar a sala</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>VOCÊ ENCONTRA UMA PEDRA DE CRISTAL MAGICA, CAPAZ DE TE TELETRANSPORTAR PARA A SAÍDA</p>
+            <button class="btn-proximo" data-proximo="6">usar a pedra</button>
+            <button class="btn-proximo" data-proximo="7">quebrar a pedra</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>VOCE ESCAPA!!!!</p>
+            
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>A PEDRA EXPLODIU!
+                VOCE MORREU
+            </p>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

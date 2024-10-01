@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://th.bing.com/th/id/R.4836dc9562eae3c774e81388d741ddfa?rik=hfz%2fu3hdJC%2bFzQ&pid=ImgRaw&r=0);
+    color: white;
+    font-family:"Handjet", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-family:"Handjet", sans-serif;
+    font-size: 2.2rem;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
